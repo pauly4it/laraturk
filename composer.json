@@ -1,7 +1,8 @@
 {
     "name": "pauly4it/laraturk",
     "description": "Provides a Laravel 5 package to communicate with the Amazon Mechanical Turk API.",
-    "keywords": ["laravel", "cors", "crossdomain", "api"],
+    "keywords": ["laravel", "amazon mechanical turk", "turk", "api"],
+    "homepage": "https://github.com/pauly4it/laraturk",  
     "license": "MIT",
     "authors": [
         {
@@ -13,7 +14,7 @@
     "require": {
         "php": ">=5.4",
         "illuminate/support": "~5",
-        "guzzlehttp/guzzle": "~5",
+        "guzzlehttp/guzzle": "~5"
     },
     "autoload": {
         "psr-4": {
