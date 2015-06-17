@@ -22,7 +22,7 @@ class LaraTurkServiceProvider extends ServiceProvider {
 
 		$config = [ $configPath => config_path('laraturk.php') ];
 
-		$this->publishes([ $config ]);
+		$this->publishes( $config );
 	}
 	
 	/**
