@@ -21,12 +21,12 @@ Amazon Mechanical Turk Documentation:
 Install by adding laraturk to your composer.json file:
 
     require : {
-        "pauly4it/laraturk": "0.1.*"
+        "pauly4it/laraturk": "dev-master"
     }
 
 or with a composer command:
 
-    composer require "pauly4it/laraturk": "0.1.*"
+    composer require "pauly4it/laraturk": "dev-master"
 
 After installation, add the provider to your config/app.php providers:
 
