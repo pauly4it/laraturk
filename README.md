@@ -293,8 +293,8 @@ $params['Notification'] = [
 - [NotifyWorkers](http://docs.aws.amazon.com/AWSMechTurk/latest/AWSMturkAPI/ApiReference_NotifyWorkersOperation.html) => `notifyWorkers()`
 
 **Requester Account**
-- GetAccountBalance => `getAccountBalance()`
-- GetRequesterStatistic => `getRequesterStatistic()`
+- [GetAccountBalance](http://docs.aws.amazon.com/AWSMechTurk/latest/AWSMturkAPI/ApiReference_GetAccountBalanceOperation.html) => `getAccountBalance()`
+- [GetRequesterStatistic](http://docs.aws.amazon.com/AWSMechTurk/latest/AWSMturkAPI/ApiReference_GetRequesterStatisticOperation.html) => `getRequesterStatistic()`
 
 *Notes:*
 - Creating a HIT using a `QuestionForm` parameter is not currently supported. You must create a HIT Layout within Mechanical Turk (for both production and sandbox modes) and get the HITLayoutID.
