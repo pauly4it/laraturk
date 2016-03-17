@@ -272,13 +272,13 @@ $params['Notification'] = [
 - [RegisterHITType](http://docs.aws.amazon.com/AWSMechTurk/latest/AWSMturkAPI/ApiReference_RegisterHITTypeOperation.html) => `registerHITType()`
 
 **Assignments**
-- GetAssignmentsForHIT => `getAssignmentsForHIT()`
-- GetAssignment => `getAssignment()`
-- ApproveAssignment => `approveAssignment()`
-- RejectAssignment => `rejectAssignment()`
-- ApproveRejectedAssignment => `approveRejectedAssignment()`
-- GrantBonus => `grantBonus()`
-- GetBonusPayments => `getBonusPayments()`
+- [GetAssignmentsForHIT](http://docs.aws.amazon.com/AWSMechTurk/latest/AWSMturkAPI/ApiReference_GetAssignmentsForHITOperation.html) => `getAssignmentsForHIT()`
+- [GetAssignment](http://docs.aws.amazon.com/AWSMechTurk/latest/AWSMturkAPI/ApiReference_GetAssignmentOperation.html) => `getAssignment()`
+- [ApproveAssignment](http://docs.aws.amazon.com/AWSMechTurk/latest/AWSMturkAPI/ApiReference_ApproveAssignmentOperation.html) => `approveAssignment()`
+- [RejectAssignment](http://docs.aws.amazon.com/AWSMechTurk/latest/AWSMturkAPI/ApiReference_RejectAssignmentOperation.html) => `rejectAssignment()`
+- [ApproveRejectedAssignment](http://docs.aws.amazon.com/AWSMechTurk/latest/AWSMturkAPI/ApiReference_ApproveRejectedAssignmentOperation.html) => `approveRejectedAssignment()`
+- [GrantBonus](http://docs.aws.amazon.com/AWSMechTurk/latest/AWSMturkAPI/ApiReference_GrantBonusOperation.html) => `grantBonus()`
+- [GetBonusPayments](http://docs.aws.amazon.com/AWSMechTurk/latest/AWSMturkAPI/ApiReference_GetBonusPaymentsOperation.html) => `getBonusPayments()`
 
 **Notifications**
 - SetHITTypeNotification => `setHITTypeNotification()`
