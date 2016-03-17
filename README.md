@@ -258,43 +258,43 @@ $params['Notification'] = [
 ### Currently implemented features and associated functions
 
 **HITs**
-- CreateHIT with HIT Type ID and HIT Layout ID => `createHITByTypeIdAndByLayoutId()`
-- CreateHIT with HIT Layout ID => `createHITByLayoutId()`
-- ChangeHITTypeOfHIT => `changeHITTypeOfHIT()`
-- ExtendHIT => `extendHIT()`
-- ForceExpireHIT => `forceExpireHIT()`
-- DisableHIT => `disableHIT()`
-- DisposeHIT => `disposeHIT()`
-- SetHITAsReviewing => `setHITAsReviewing()`
-- GetReviewableHITs => `getReviewableHITs()`
-- SearchHITs => `searchHITs()`
-- GetHIT => `getHIT()`
-- RegisterHITType => `registerHITType()`
+- [CreateHIT](http://docs.aws.amazon.com/AWSMechTurk/latest/AWSMturkAPI/ApiReference_CreateHITOperation.html) with HIT Type ID and HIT Layout ID => `createHITByTypeIdAndByLayoutId()`
+- [CreateHIT](http://docs.aws.amazon.com/AWSMechTurk/latest/AWSMturkAPI/ApiReference_CreateHITOperation.html) with HIT Layout ID => `createHITByLayoutId()`
+- [ChangeHITTypeOfHIT](http://docs.aws.amazon.com/AWSMechTurk/latest/AWSMturkAPI/ApiReference_ChangeHITTypeOfHITOperation.html) => `changeHITTypeOfHIT()`
+- [ExtendHIT](http://docs.aws.amazon.com/AWSMechTurk/latest/AWSMturkAPI/ApiReference_ExtendHITOperation.html) => `extendHIT()`
+- [ForceExpireHIT](http://docs.aws.amazon.com/AWSMechTurk/latest/AWSMturkAPI/ApiReference_ForceExpireHITOperation.html) => `forceExpireHIT()`
+- [DisableHIT](http://docs.aws.amazon.com/AWSMechTurk/latest/AWSMturkAPI/ApiReference_DisableHITOperation.html) => `disableHIT()`
+- [DisposeHIT](http://docs.aws.amazon.com/AWSMechTurk/latest/AWSMturkAPI/ApiReference_DisposeHITOperation.html) => `disposeHIT()`
+- [SetHITAsReviewing](http://docs.aws.amazon.com/AWSMechTurk/latest/AWSMturkAPI/ApiReference_SetHITAsReviewingOperation.html) => `setHITAsReviewing()`
+- [GetReviewableHITs](http://docs.aws.amazon.com/AWSMechTurk/latest/AWSMturkAPI/ApiReference_GetReviewableHITsOperation.html) => `getReviewableHITs()`
+- [SearchHITs](http://docs.aws.amazon.com/AWSMechTurk/latest/AWSMturkAPI/ApiReference_SearchHITsOperation.html) => `searchHITs()`
+- [GetHIT](http://docs.aws.amazon.com/AWSMechTurk/latest/AWSMturkAPI/ApiReference_GetHITOperation.html) => `getHIT()`
+- [RegisterHITType](http://docs.aws.amazon.com/AWSMechTurk/latest/AWSMturkAPI/ApiReference_RegisterHITTypeOperation.html) => `registerHITType()`
 
 **Assignments**
-- GetAssignmentsForHIT => `getAssignmentsForHIT()`
-- GetAssignment => `getAssignment()`
-- ApproveAssignment => `approveAssignment()`
-- RejectAssignment => `rejectAssignment()`
-- ApproveRejectedAssignment => `approveRejectedAssignment()`
-- GrantBonus => `grantBonus()`
-- GetBonusPayments => `getBonusPayments()`
+- [GetAssignmentsForHIT](http://docs.aws.amazon.com/AWSMechTurk/latest/AWSMturkAPI/ApiReference_GetAssignmentsForHITOperation.html) => `getAssignmentsForHIT()`
+- [GetAssignment](http://docs.aws.amazon.com/AWSMechTurk/latest/AWSMturkAPI/ApiReference_GetAssignmentOperation.html) => `getAssignment()`
+- [ApproveAssignment](http://docs.aws.amazon.com/AWSMechTurk/latest/AWSMturkAPI/ApiReference_ApproveAssignmentOperation.html) => `approveAssignment()`
+- [RejectAssignment](http://docs.aws.amazon.com/AWSMechTurk/latest/AWSMturkAPI/ApiReference_RejectAssignmentOperation.html) => `rejectAssignment()`
+- [ApproveRejectedAssignment](http://docs.aws.amazon.com/AWSMechTurk/latest/AWSMturkAPI/ApiReference_ApproveRejectedAssignmentOperation.html) => `approveRejectedAssignment()`
+- [GrantBonus](http://docs.aws.amazon.com/AWSMechTurk/latest/AWSMturkAPI/ApiReference_GrantBonusOperation.html) => `grantBonus()`
+- [GetBonusPayments](http://docs.aws.amazon.com/AWSMechTurk/latest/AWSMturkAPI/ApiReference_GetBonusPaymentsOperation.html) => `getBonusPayments()`
 
 **Notifications**
-- SetHITTypeNotification => `setHITTypeNotification()`
-- SendTestEventNotification => `sendTestEventNotification()`
+- [SetHITTypeNotification](http://docs.aws.amazon.com/AWSMechTurk/latest/AWSMturkAPI/ApiReference_SetHITTypeNotificationOperation.html) => `setHITTypeNotification()`
+- [SendTestEventNotification](http://docs.aws.amazon.com/AWSMechTurk/latest/AWSMechanicalTurkRequester/Concepts_NotificationsArticle.html) => `sendTestEventNotification()`
 
 **Workers**
-- BlockWorker => `blockWorker()`
-- UnblockWorker => `unblockWorker()`
-- GetBlockedWorkers => `getBlockedWorkers()`
-- GetRequesterWorkerStatistic => `getRequesterWorkerStatistic()`
-- GetFileUploadURL => `getFileUploadURL()`
-- NotifyWorkers => `notifyWorkers()`
+- [BlockWorker](http://docs.aws.amazon.com/AWSMechTurk/latest/AWSMturkAPI/ApiReference_BlockWorkerOperation.html) => `blockWorker()`
+- [UnblockWorker](http://docs.aws.amazon.com/AWSMechTurk/latest/AWSMturkAPI/ApiReference_UnblockWorkerOperation.html) => `unblockWorker()`
+- [GetBlockedWorkers](http://docs.aws.amazon.com/AWSMechTurk/latest/AWSMturkAPI/ApiReference_GetBlockedWorkersOperation.html) => `getBlockedWorkers()`
+- [GetRequesterWorkerStatistic](http://docs.aws.amazon.com/AWSMechTurk/latest/AWSMturkAPI/ApiReference_GetRequesterWorkerStatisticOperation.html) => `getRequesterWorkerStatistic()`
+- [GetFileUploadURL](http://docs.aws.amazon.com/AWSMechTurk/latest/AWSMturkAPI/ApiReference_GetFileUploadURLOperation.html) => `getFileUploadURL()`
+- [NotifyWorkers](http://docs.aws.amazon.com/AWSMechTurk/latest/AWSMturkAPI/ApiReference_NotifyWorkersOperation.html) => `notifyWorkers()`
 
 **Requester Account**
-- GetAccountBalance => `getAccountBalance()`
-- GetRequesterStatistic => `getRequesterStatistic()`
+- [GetAccountBalance](http://docs.aws.amazon.com/AWSMechTurk/latest/AWSMturkAPI/ApiReference_GetAccountBalanceOperation.html) => `getAccountBalance()`
+- [GetRequesterStatistic](http://docs.aws.amazon.com/AWSMechTurk/latest/AWSMturkAPI/ApiReference_GetRequesterStatisticOperation.html) => `getRequesterStatistic()`
 
 *Notes:*
 - Creating a HIT using a `QuestionForm` parameter is not currently supported. You must create a HIT Layout within Mechanical Turk (for both production and sandbox modes) and get the HITLayoutID.
