@@ -334,6 +334,10 @@ Calling `$e->getErrors()` would return:
 
 If you need any help with this package or find a bug, please submit an issue.
 
+## Contributing
+
+Feel free to submit a pull request! Please add a detailed description to help me understand your change. Thanks!
+
 ## License
 
 The LaraTurk package is licensed under the [MIT license](http://opensource.org/licenses/MIT).
