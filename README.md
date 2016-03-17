@@ -258,18 +258,18 @@ $params['Notification'] = [
 ### Currently implemented features and associated functions
 
 **HITs**
-- CreateHIT with HIT Type ID and HIT Layout ID => `createHITByTypeIdAndByLayoutId()`
-- CreateHIT with HIT Layout ID => `createHITByLayoutId()`
-- ChangeHITTypeOfHIT => `changeHITTypeOfHIT()`
-- ExtendHIT => `extendHIT()`
-- ForceExpireHIT => `forceExpireHIT()`
-- DisableHIT => `disableHIT()`
-- DisposeHIT => `disposeHIT()`
-- SetHITAsReviewing => `setHITAsReviewing()`
-- GetReviewableHITs => `getReviewableHITs()`
-- SearchHITs => `searchHITs()`
-- GetHIT => `getHIT()`
-- RegisterHITType => `registerHITType()`
+- [CreateHIT](http://docs.aws.amazon.com/AWSMechTurk/latest/AWSMturkAPI/ApiReference_CreateHITOperation.html) with HIT Type ID and HIT Layout ID => `createHITByTypeIdAndByLayoutId()`
+- [CreateHIT](http://docs.aws.amazon.com/AWSMechTurk/latest/AWSMturkAPI/ApiReference_CreateHITOperation.html) with HIT Layout ID => `createHITByLayoutId()`
+- [ChangeHITTypeOfHIT](http://docs.aws.amazon.com/AWSMechTurk/latest/AWSMturkAPI/ApiReference_ChangeHITTypeOfHITOperation.html) => `changeHITTypeOfHIT()`
+- [ExtendHIT](http://docs.aws.amazon.com/AWSMechTurk/latest/AWSMturkAPI/ApiReference_ExtendHITOperation.html) => `extendHIT()`
+- [ForceExpireHIT](http://docs.aws.amazon.com/AWSMechTurk/latest/AWSMturkAPI/ApiReference_ForceExpireHITOperation.html) => `forceExpireHIT()`
+- [DisableHIT](http://docs.aws.amazon.com/AWSMechTurk/latest/AWSMturkAPI/ApiReference_DisableHITOperation.html) => `disableHIT()`
+- [DisposeHIT](http://docs.aws.amazon.com/AWSMechTurk/latest/AWSMturkAPI/ApiReference_DisposeHITOperation.html) => `disposeHIT()`
+- [SetHITAsReviewing](http://docs.aws.amazon.com/AWSMechTurk/latest/AWSMturkAPI/ApiReference_SetHITAsReviewingOperation.html) => `setHITAsReviewing()`
+- [GetReviewableHITs](http://docs.aws.amazon.com/AWSMechTurk/latest/AWSMturkAPI/ApiReference_GetReviewableHITsOperation.html) => `getReviewableHITs()`
+- [SearchHITs](http://docs.aws.amazon.com/AWSMechTurk/latest/AWSMturkAPI/ApiReference_SearchHITsOperation.html) => `searchHITs()`
+- [GetHIT](http://docs.aws.amazon.com/AWSMechTurk/latest/AWSMturkAPI/ApiReference_GetHITOperation.html) => `getHIT()`
+- [RegisterHITType](http://docs.aws.amazon.com/AWSMechTurk/latest/AWSMturkAPI/ApiReference_RegisterHITTypeOperation.html) => `registerHITType()`
 
 **Assignments**
 - GetAssignmentsForHIT => `getAssignmentsForHIT()`
@@ -289,7 +289,7 @@ $params['Notification'] = [
 - UnblockWorker => `unblockWorker()`
 - GetBlockedWorkers => `getBlockedWorkers()`
 - GetRequesterWorkerStatistic => `getRequesterWorkerStatistic()`
-- GetFileUploadURL => `getFileUploadURL()`
+- [GetFileUploadURL](http://docs.aws.amazon.com/AWSMechTurk/latest/AWSMturkAPI/ApiReference_GetFileUploadURLOperation.html) => `getFileUploadURL()`
 - NotifyWorkers => `notifyWorkers()`
 
 **Requester Account**
