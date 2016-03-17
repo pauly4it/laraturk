@@ -281,16 +281,16 @@ $params['Notification'] = [
 - [GetBonusPayments](http://docs.aws.amazon.com/AWSMechTurk/latest/AWSMturkAPI/ApiReference_GetBonusPaymentsOperation.html) => `getBonusPayments()`
 
 **Notifications**
-- SetHITTypeNotification => `setHITTypeNotification()`
-- SendTestEventNotification => `sendTestEventNotification()`
+- [SetHITTypeNotification](http://docs.aws.amazon.com/AWSMechTurk/latest/AWSMturkAPI/ApiReference_SetHITTypeNotificationOperation.html) => `setHITTypeNotification()`
+- [SendTestEventNotification](http://docs.aws.amazon.com/AWSMechTurk/latest/AWSMechanicalTurkRequester/Concepts_NotificationsArticle.html) => `sendTestEventNotification()`
 
 **Workers**
-- BlockWorker => `blockWorker()`
-- UnblockWorker => `unblockWorker()`
-- GetBlockedWorkers => `getBlockedWorkers()`
-- GetRequesterWorkerStatistic => `getRequesterWorkerStatistic()`
+- [BlockWorker](http://docs.aws.amazon.com/AWSMechTurk/latest/AWSMturkAPI/ApiReference_BlockWorkerOperation.html) => `blockWorker()`
+- [UnblockWorker](http://docs.aws.amazon.com/AWSMechTurk/latest/AWSMturkAPI/ApiReference_UnblockWorkerOperation.html) => `unblockWorker()`
+- [GetBlockedWorkers](http://docs.aws.amazon.com/AWSMechTurk/latest/AWSMturkAPI/ApiReference_GetBlockedWorkersOperation.html) => `getBlockedWorkers()`
+- [GetRequesterWorkerStatistic](http://docs.aws.amazon.com/AWSMechTurk/latest/AWSMturkAPI/ApiReference_GetRequesterWorkerStatisticOperation.html) => `getRequesterWorkerStatistic()`
 - [GetFileUploadURL](http://docs.aws.amazon.com/AWSMechTurk/latest/AWSMturkAPI/ApiReference_GetFileUploadURLOperation.html) => `getFileUploadURL()`
-- NotifyWorkers => `notifyWorkers()`
+- [NotifyWorkers](http://docs.aws.amazon.com/AWSMechTurk/latest/AWSMturkAPI/ApiReference_NotifyWorkersOperation.html) => `notifyWorkers()`
 
 **Requester Account**
 - GetAccountBalance => `getAccountBalance()`
