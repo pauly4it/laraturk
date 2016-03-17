@@ -30,11 +30,23 @@ or with a composer command:
 
 After installation, add the provider to your config/app.php providers:
 
-    'Pauly4it\LaraTurk\LaraTurkServiceProvider',
+	For Laravel 5.0:
+
+		'Pauly4it\LaraTurk\LaraTurkServiceProvider',
+
+	For Laravel 5.1+:
+	
+		'Pauly4it\LaraTurk\LaraTurkServiceProvider::class',
 
 and the facade to config/app.php aliases:
 
-	'LaraTurk' => 'Pauly4it\LaraTurk\Facades\LaraTurk',
+	For Laravel 5.0:
+
+		'LaraTurk' => 'Pauly4it\LaraTurk\Facades\LaraTurk',
+
+	For Laravel 5.1+:
+	
+		'LaraTurk' => 'Pauly4it\LaraTurk\Facades\LaraTurk::class',
 
 ## Configuring LaraTurk
 
